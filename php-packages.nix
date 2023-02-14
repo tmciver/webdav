@@ -5,70 +5,70 @@ let
     "psr/log" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "psr-log-d49695b909c3b7628b6289db5479a1c204601f11";
+        name = "psr-log-fe5ea303b0887d5caefd3d431c3e61ad47037001";
         src = fetchurl {
-          url = "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11";
-          sha256 = "0sb0mq30dvmzdgsnqvw3xh4fb4bqjncx72kf8n622f94dd48amln";
+          url = "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001";
+          sha256 = "0a0rwg38vdkmal3nwsgx58z06qkfl85w2yvhbgwg45anr0b3bhmv";
         };
       };
     };
     "sabre/dav" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-dav-a9780ce4f35560ecbd0af524ad32d9d2c8954b80";
+        name = "sabre-dav-b65362abc926520eda2c57e219f022a6c288069d";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/dav/zipball/a9780ce4f35560ecbd0af524ad32d9d2c8954b80";
-          sha256 = "0fps2clcwl61hn16hbii8k3sh0s06gwaysca7wi9c9k0ji2zi21s";
+          url = "https://api.github.com/repos/sabre-io/dav/zipball/b65362abc926520eda2c57e219f022a6c288069d";
+          sha256 = "19lcgiqrnqkjnyyg868w7id4jzcklfsq16fkfpr2h91nmjaa9d04";
         };
       };
     };
     "sabre/event" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-event-831d586f5a442dceacdcf5e9c4c36a4db99a3534";
+        name = "sabre-event-d7da22897125d34d7eddf7977758191c06a74497";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/event/zipball/831d586f5a442dceacdcf5e9c4c36a4db99a3534";
-          sha256 = "1qfbva83cfxxndxddv6y07j6jqmvf3lr7l4wkd1nriirzvxs7p8z";
+          url = "https://api.github.com/repos/sabre-io/event/zipball/d7da22897125d34d7eddf7977758191c06a74497";
+          sha256 = "1h2hhjjr8qixhiaxwx85cm1pcmvfb3v9brv1i30iys8l4p34wmha";
         };
       };
     };
     "sabre/http" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-http-acccec4ba863959b2d10c1fa0fb902736c5c8956";
+        name = "sabre-http-9976ac34ced206bd6579b7b37b401de9fac98dae";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/http/zipball/acccec4ba863959b2d10c1fa0fb902736c5c8956";
-          sha256 = "1bw743yrbzxpi2k18vc5dmq44ms7dpyklwb1krij5bfcln1pp274";
+          url = "https://api.github.com/repos/sabre-io/http/zipball/9976ac34ced206bd6579b7b37b401de9fac98dae";
+          sha256 = "000q1m5qwdw7i0i4djr58krc376zyx33929f2jz11wpysssyzw3p";
         };
       };
     };
     "sabre/uri" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-uri-ada354d83579565949d80b2e15593c2371225e61";
+        name = "sabre-uri-eceb4a1b8b680b45e215574222d6ca00be541970";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/uri/zipball/ada354d83579565949d80b2e15593c2371225e61";
-          sha256 = "05ahxk2xm9slmkjip1zmgbwzlc8czjg48mki7vfpn4j7bahqya57";
+          url = "https://api.github.com/repos/sabre-io/uri/zipball/eceb4a1b8b680b45e215574222d6ca00be541970";
+          sha256 = "15zfzfyvk69wjyc005ma7lkgnvbsw5c7yiimnw9sxgssjhybc16v";
         };
       };
     };
     "sabre/vobject" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-vobject-449616b2d45b95c8973975de23f34a3d14f63b4b";
+        name = "sabre-vobject-fe6d9183154ed6f2f913f2b568d3d51d8ae9b308";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/vobject/zipball/449616b2d45b95c8973975de23f34a3d14f63b4b";
-          sha256 = "13plcy0s7qyqlkr0ni6fk9qqbs23bwbqgwk62gh5ny9icgspvh7m";
+          url = "https://api.github.com/repos/sabre-io/vobject/zipball/fe6d9183154ed6f2f913f2b568d3d51d8ae9b308";
+          sha256 = "0w9cxjsaywb5crfg3b7px4vsv6lfdh2m5flmfr8695xki6yq6hvk";
         };
       };
     };
     "sabre/xml" = {
       targetDir = "";
       src = composerEnv.buildZipPackage {
-        name = "sabre-xml-a367665f1df614c3b8fefc30a54de7cd295e444e";
+        name = "sabre-xml-a6af111850e7536d200d9637c34885cd3c77a86c";
         src = fetchurl {
-          url = "https://api.github.com/repos/sabre-io/xml/zipball/a367665f1df614c3b8fefc30a54de7cd295e444e";
-          sha256 = "0vn4q9a8awzxi0d74lknq3g5jaa20nn80ahcd0gjjzkd447h71i4";
+          url = "https://api.github.com/repos/sabre-io/xml/zipball/a6af111850e7536d200d9637c34885cd3c77a86c";
+          sha256 = "150gq91qvyliv5mbf86wfi101v9n0wgw4xx9pdsbvssq7yjxn1ax";
         };
       };
     };

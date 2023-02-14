@@ -11,7 +11,7 @@ $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
 
 //Mapping PHP errors to exceptions
 function exception_error_handler($errno, $errstr, $errfile, $errline ) {
-  //web    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+  throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
 }
 set_error_handler("exception_error_handler");
 
@@ -29,7 +29,7 @@ $tree = array(
     new DAVACL\PrincipalCollection($principalBackend),
     new CalDAV\CalendarRoot($principalBackend, $calendarBackend),
     new CardDAV\AddressBookRoot($principalBackend, $cardDavBackend)
-);  
+);
 
 // The object tree needs in turn to be passed to the server class
 $server = new DAV\Server($tree);
@@ -37,7 +37,7 @@ $server = new DAV\Server($tree);
 // You are highly encouraged to set your WebDAV server base url. Without it,
 // SabreDAV will guess, but the guess is not always correct. Putting the
 // server on the root of the domain will improve compatibility.
-$server->setBaseUri('/');
+$server->setBaseUri('/index.php');
 
 // Authentication plugin
 $authPlugin = new DAV\Auth\Plugin($authBackend,'SabreDAV');
